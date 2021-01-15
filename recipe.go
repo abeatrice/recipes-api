@@ -2,6 +2,7 @@ package main
 
 // Recipe ...
 type Recipe struct {
-	Name        string
-	Description string
+	ID          string `json:"id"`
+	Name        string `json:"name"`
+	Description string `json:"description"`
 }
